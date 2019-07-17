@@ -1,0 +1,179 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="Styles/reset.css" rel="stylesheet" type="text/css" />-->
+    <link href="Styles/myStyle.css" rel="stylesheet" type="text/css" />
+    <!-- Scripts -->
+    <script src="jScripts/jquery-2.1.1.min.js" type="text/javascript"></script> 
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+    width:98%;
+}
+
+header{
+    margin-right:0%;
+    text-align:center;
+}
+h1{
+    font-weight:normal;
+    color:white;
+}
+article{
+    text-align:center;
+    width:300px;
+    margin:auto;
+}
+form>div>div{
+    display:inline-block;
+}
+form{
+    width:350px;
+    margin:auto;
+    margin-top:40px;
+}
+article{
+    margin-top:30px;
+}
+hr{
+    margin-top:30px;
+
+}
+button{
+    background-color:#279CF5;
+    border:none;
+    color:white;
+    width:361px;
+    height:35px;
+    margin-top:50px;
+    font-size:15pt;
+
+}
+.bac{
+    background-color:#211346;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+        padding-left: 10px;
+}
+.thisImage{
+    width:100%;
+    height:50px;
+}
+img{
+position:absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+    @media (min-width: 175px) {
+        img{
+            right:28%;
+        }
+
+    }
+    @media (min-width: 375px){
+        img{
+            right:32%;
+        }
+    }
+    @media (min-width: 768px) {
+         img{
+            right:42%;
+        }
+    }
+    @media (min-width: 1200px){
+        img{
+            right:46%;
+        }
+    }
+        @media (min-width: 1400px){
+        img{
+            right:47%;
+        }
+    }
+.thisfade{
+    opacity:0.5;
+}
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+    padding-bottom:10px;
+}
+h2{
+    font-size:13pt;
+}
+p{
+    font-size:10pt;
+}
+div{
+    font-size:10pt;
+}
+form>div>div{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+</style>
+    <div id="container" dir="rtl">
+        <div class="thisImage">
+            <img src="https://i.imagesup.co/images2/b1cf40559745d525f6a5dd7ee5cc2e240ce03cc2.png" width="140px" />
+        </div>
+        <div class="bac">
+            <header>
+                <h1 dir="ltr">
+                    WHAT ARE YOUR
+                    <br />
+                    <b>PREFERENCES?</b>
+                </h1>
+            </header>
+        </div>
+
+        <article>
+            <h2>זה לא אתם, זה אנחנו</h2>
+            <p>
+                כנראה שלא קלענו לתחומי העניין שלך
+                <br/>
+                נשמח אם תסייע/י לנו להתפשר.
+                <br />
+                סמן ב-V את סוגי הפרסום שמעניינים אותך
+            </p>
+            <hr />
+        </article>
+        <form>
+            <div>
+                <input type="checkbox" name="box1" >
+                <div>מעוניין קבל תכנים מסוג 1</div>
+            </div>
+            <div>
+                <input type="checkbox" name="box2" >
+                <div>מעוניין קבל תכנים מסוג 2</div>
+            </div>
+            <div>
+                <input type="checkbox" name="box3" >
+                <div>מעוניין קבל תכנים מסוג 3</div>
+            </div>
+            <div class="thisfade">
+                <input type="checkbox" name="box4" >
+                <div>הסירו אותי מכל הפרסומים</div>
+            </div>
+            <button>סיים</button>
+        </form>
+
+    </div>
+</body>
+</html>
